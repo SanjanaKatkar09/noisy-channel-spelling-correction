@@ -1,0 +1,5 @@
+Original Text:
+The algoritm was trainned on a large ammount of documants and acheived good accurracy.
+
+Corrected Text:
+The algorithm was trained on a large amount of documents and achieved good accuracy.
