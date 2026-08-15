@@ -1,0 +1,29 @@
+ERROR ANALYSIS
+==============
+
+The Noisy Channel Model correctly corrected 23 out of 24
+test cases.
+
+One error was observed:
+
+Misspelled word:
+algoritms
+
+Expected correction:
+algorithms
+
+Noisy Channel prediction:
+algorithm
+
+Standard Spell Checker prediction:
+algorithms
+
+Reason:
+Both "algorithm" and "algorithms" are valid candidates based
+on edit distance. The Noisy Channel Model selected "algorithm"
+because its estimated corpus probability was higher than the
+probability of "algorithms".
+
+This shows a limitation of using a small corpus for estimating
+word probabilities. Context-aware language modeling or a larger
+corpus could improve the correction of such cases.
